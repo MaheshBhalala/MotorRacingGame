@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.roadracing{
+    height: 480px;
+    width: 450px;
+    margin: 0 auto;
+    background-size: contain;
+    overflow: hidden;
+    background-image: url(./image/bg.jpg);
+}
+
+.bluecar{
+    height: 40px;
+    width: 60px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    animation: move 1s linear  infinite;
+
+}
+
+#bluecar img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+    
+}
+.localcar, .maincar{
+    width: 60px;
+}
+.redcar{
+    height: 40px;
+    width: 60px;
+    position: relative;
+    top: 280px;
+    left: 200px;
+    background-image: url(./image/race.png);
+}
